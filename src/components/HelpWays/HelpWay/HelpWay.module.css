@@ -1,0 +1,47 @@
+.helpWay {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #c5d5e6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.activeHelpWay {
+    background-color: #9c5d9a;
+    border: none;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Geometria, sans-serif;
+    font-weight: 800;
+    color: #c5d5e6;
+}
+.activeTitle {
+    color: #363b5d;
+}
+.arrow {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-color: #c5d5e6;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 20px;
+    top: 105px;
+}
+
+@media screen and (max-width: 700px) {
+    .arrow {
+        display: none;
+    }
+}

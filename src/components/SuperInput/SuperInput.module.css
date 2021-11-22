@@ -1,0 +1,27 @@
+.inputAndTitle {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.input {
+    background-color: #f3f7fa;
+    border: none;
+    outline: 0;
+    height: 35px;
+    width: 195px;
+    outline-offset: 0;
+    border-radius: 4px;
+}
+.inputAndTitle span {
+    text-align: left;
+    color: darkgray;
+}
+.addLogo {
+    display: block;
+    position: absolute;
+    top: 27px;
+    left: 22.5vw;
+    cursor: pointer;
+}

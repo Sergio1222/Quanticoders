@@ -1,0 +1,30 @@
+.superForm {
+    margin-top: 55px;
+    font-family: Geometria, sans-serif;
+    font-weight: 400;
+}
+.formWrapper {
+    display: flex;
+    gap: 250px;
+}
+.formColumn {
+    display: flex;
+    flex-direction: column;
+}
+.twoInputs {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 550px) {
+    .formWrapper {
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .twoInputs {
+        gap: 10px;
+        flex-direction: column;
+    }
+}

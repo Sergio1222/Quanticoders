@@ -1,0 +1,29 @@
+.App {
+    text-align: center;
+    padding-top: 100px;
+}
+.titleChildren1 {
+    text-align: center;
+    font-family: Geometria, sans-serif;
+    color: #363b5d;
+}
+.titleChildren1 span {
+    padding: 8px 20px;
+    border: 2px solid #363b5d;
+    cursor: pointer;
+}
+.titleChildren1 :nth-child(1) {
+    border-radius: 5px 0 0 5px;
+}
+.titleChildren1 :nth-child(2) {
+    border-radius: 0 5px 5px 0;
+}
+.activeField {
+    background-color: #363b5d;
+    color: white;
+}
+.titleChildren2 {
+    display: block;
+    text-align: center;
+}
+
